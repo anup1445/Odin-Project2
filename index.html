@@ -4,8 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Game</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <h1>Let's play!!</h1>
+    <div class="container">
+      <div class="choices">
+        <img src="./images/rock.png" alt="rock" />
+        <button value="Rock">ROCK</button>
+      </div>
+      <div class="choices">
+        <img src="./images/paper.png" alt="paper-image" />
+        <button value="Paper">PAPER</button>
+      </div>
+      <div class="choices">
+        <img src="./images/scissor.png" alt="scissors" />
+        <button value="scissor">SCISSORS</button>
+      </div>
+    </div>
+
+    <div class="scores">
+      <h2 id="playerScore">Player 1:</h2>
+      <h2 id="ComputerScore">Player 2:</h2>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
